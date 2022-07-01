@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main-color:#8e44ad;
+    --black:#222;
+    --white:#fff;
+    --yelow: #ADFF2F;
+    --light-black:#777;
+    --light-white:#fff9;
+    --dark-bg:rgba(0,0,0.7);
+    --light-bg:#eee;
+    --border:.1er solid var(--black);
+    --box-shadow:0.5rem 1rem rgba(0,0,0,.1);
+    --text-shadow:0 1.5rem 3rem rgba(0,0,0,.3);
+}
+
+.texte {
+    width: 80%;
+    color:var(--white);
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 8%;
+}
+
+
+.junior{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 13%;
+    color: var(--light-bg);
+    
+}
+.sous-junior{
+    margin-right: 15%;
+    margin-top: 2%;
+    text-align: center;
+}
+.junior  .sous-junior h2{
+    font-size: 18px;
+}
+a{
+    text-decoration:none;
+}
+
+
+.sous-junior p{
+    margin-top: 5%;
+}
+
+.edg{
+    position: relative;
+    width: 100%;
+    bottom: 340px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+@media all and (min-width: 100px) and (max-width: 1280px){
+   
+    .sous-junior{
+        margin-right: 5%;
+        margin-top: 2px;
+        text-align: center;
+    }   
+  
+    .edg{
+        position: relative;
+        width: 100%;
+        bottom: 50px;
+        text-align: center;
+        
+    }
+    .edg h1{
+          font-size: 22px;
+    }
+    .edg p{
+        font-size: 17px;
+    }
+
+    
+    .place{
+            font-size: small;
+            text-align: left;
+    }
+  
+   
+    .meilleur p{
+        font-size: 10px;
+        text-align: center;
+    }
+    footer{
+        background-image:linear-gradient(rgba(12,9,9,0.7),rgba(12,9,9,0.7));
+        font-size: small;
+    }
+    
+    .junior {
+        margin-top: 5%;
+        display: inline;
+        justify-content: space-between;
+    }
+    .dish{
+        text-align: right;
+    }
+}
+
+
+
+
+footer{
+    background-image:linear-gradient(rgba(22, 9, 9, 0.7),rgba(12,9,9,0.1)),url('corniche.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+#dir{
+    background-image:linear-gradient(rgba(12, 12, 12, 0.1),rgba(14, 13, 13, 0.1));
+    text-align: center;
+    padding-top: 2rem ;
+    margin-top: 2rem;
+    border-top: .1rem solid var(--light-bg);
+    font-size: 2rem;
+    color: var(--white);
+}
+.ju{
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.divider{
+    height: 5px;
+    width: 80px;
+    background: linear-gradient(to right,#00e0fe,#1107fe);
+    margin: 16px auto;
+}
+.nos {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.Articles{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+span{
+    color:var(--yelow);
+    width: 100%;
+}
